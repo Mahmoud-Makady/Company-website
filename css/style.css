@@ -1,0 +1,237 @@
+.text-cus {
+    background-color: #f4511e;
+}
+.color-cus {
+    color: #f4511e;
+}
+.bg-grey {
+    background-color: #f1f1f1d0;
+} 
+.color-grey {
+    color: #888888;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+ }
+
+.navbar {
+    background-color: #f4511e;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-top: -8px;
+    padding-bottom:0 ;
+    border-radius: 0;
+    /* z-index: ; */
+    
+}
+.nav-item a {
+    color: white;
+    padding: 18px;
+}
+.navbar-nav li:hover a,
+.navbar-nav li:active a {
+    background-color: white;
+    color: #f4511e;
+}
+/* <!-- End navbar section  --> */
+
+/* !-- Start logo section  --> */
+#logo {
+    position: relative;
+    height: 65vh;
+    margin-top: -50px;
+}
+.content {
+    text-align: center;
+    padding: 100px 25px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.content h1 {
+    font-size: 58px;
+    padding: 10px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+h1,
+.h4 {
+    position: relative;
+    left: -80px;
+}
+.input-group-btn {
+    position: relative;
+    top: -38px;
+    left: 43%;
+    font-size: 0;
+    white-space: nowrap;
+}
+.input-group-btn:last-child>.btn,
+ .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: -1px;
+}
+input [type=email] {
+    height: 100px;
+}
+.input-group {
+    width: 100%;
+    border: none;
+    position: relative;
+    left: -88px;
+
+}
+/* !-- End logo section  --> */
+/* Start about section  */
+.about {
+    text-align: start;
+}
+.about h2 {
+    font-size: 24px;
+      text-transform: uppercase;
+      color: #030303;
+      font-weight: 600;
+      margin-bottom: 30px;
+      letter-spacing: 0;
+}
+.about h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #070707;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+.about p,
+.about-2 p {
+    color: #7a7a7a;
+    font-size: 16px;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    border: 1px solid rgba(158, 154, 154, 0.685);
+    position: relative;
+    left: 40px;
+}
+.btn-lg:hover {
+    background-color: #9c9a9a;
+}
+.fa-signal {
+    color: #f4511e;
+    font-size: 200px;
+    position: relative;
+    top: 30%;
+}
+.about-2 span,
+h2  {
+    font-weight: bolder;
+}
+.fa-earth-americas {
+    color: #f4511e;
+    font-size: 200px;
+    position: relative;
+    top: 12%;
+    left: 10%;
+}
+/* End about section  */
+
+/* Start services section  */
+.fa {
+    color: #f4511e;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.col-sm-4 {
+    display: inline-block;
+}
+.col-sm-4 h4 {
+    font-family: "Glyphicons Halflings" sans-serif;
+    font-weight: bolder;
+}
+.col-sm-4 p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-weight:500;
+
+}
+
+/* End services section  */
+
+/* Start portofolio esction  */
+.card {
+    background-color: white;
+    border: none;
+}
+.card span {
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 10px;
+}
+.fa-chevron-left,
+.fa-chevron-right {
+    font-size: 40px;
+  }
+  .carousel-item h4 {
+    font-style: italic;
+  }
+.carousel-item span {
+    font-style: normal;
+}
+ 
+/* End portofolio section  */
+
+/* Start pricing section  */
+.card-panel {
+    border: 1px solid #f4511e;
+}
+.panel-header h1 {
+    position: relative;
+    left: 0%;
+}
+.panel-footer .btn {
+    background-color: #f4511e;
+    color: white;
+    position: relative;
+    left: 0;
+} 
+.panel-footer .btn:hover {
+    background-color: white;
+    color: #f4511e;
+    border: 1px solid #f4511e;
+}
+.panel-foote h3 {
+    font-weight: bolder;
+}
+/* End pricing section  */
+.btn-sub {
+    position: relative;
+    left: 95%;
+    border: 1px solid #f1f1f1d0;
+    background-color: #e2e2e2;
+}
+.btn-sub:hover {
+    background-color: blue;
+    color: white;
+}
+
+.to-top {
+    font-size: 25px;
+    font-weight: bold;
+    color: #f4511e;
+}
+
